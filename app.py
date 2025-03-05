@@ -84,7 +84,7 @@ malignant_percentage = st.sidebar.text_input(
     "Malignant Percentage",
     placeholder="Enter percentage"
 )
-manual_model = pickle.load(open("Decision_Tree.pkl", "rb"))
+manual_model = pickle.load(open("optimized_decision_tree_model.pkl", "rb"))
 # Button for prediction with manual entry
 if st.sidebar.button("Predict Cancer Risk (Manual Entry)"):
         
